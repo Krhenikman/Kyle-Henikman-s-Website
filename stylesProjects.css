@@ -28,7 +28,7 @@ header {
     font-size: 3rem;
     color: black;
     
-    height: 7%; /* 100% of the viewport's height */
+    height: 9%; /* 100% of the viewport's height */
     max-width: 100%; /* 100% of the viewport's width */
 }
 
@@ -45,7 +45,7 @@ footer {
     position: fixed;
     bottom: 0;
     
-    height: 7%; /* 100% of the viewport's height */
+    height: 9%; /* 100% of the viewport's height */
     width: 100%; /* Take up full width */
     max-width: 100%;
 }
@@ -103,9 +103,9 @@ nav ul li a:hover {
 
 
 
-section {
+/* section {
     padding: 20px;
     text-align: center;
-}
+} */
 
 
