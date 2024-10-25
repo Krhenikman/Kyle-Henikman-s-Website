@@ -27,7 +27,8 @@ header {
     padding: 20px;
     font-size: 40px;
     color: black;
-    height: 50px; /* Increased height for better vertical centering */
+    height: 5vh; /* 100% of the viewport's height */
+    width: 100%; /* 100% of the viewport's width */
 }
 
 nav ul {
@@ -95,5 +96,7 @@ footer {
     padding: 10px;
     position: fixed;
     bottom: 0;
+    height: 5vh; /* 100% of the viewport's height */
+    
     width: 100%;
 }
