@@ -1,0 +1,99 @@
+body {
+    font-family: Lato, Roboto; /* These are the fonts of google therefore the most readable */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    height: 750px;
+
+
+        background-image: url('images/background9.jpg');
+        /* height: 500px; */
+        /* Parrallax Effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+
+}
+
+header {
+    font-family: Lato, Roboto; /* These are the fonts of google therefore the most readable */
+    background-color: #264653;
+    text-align: center;
+    align-items: center; /* Center vertically */
+    display: flex; /* Corrected display property */
+    justify-content: center; /* Center horizontally */
+    padding: 20px;
+    font-size: 40px;
+    color: black;
+    height: 50px; /* Increased height for better vertical centering */
+}
+
+nav ul {
+    color:#2A9D8F;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    /* border: 2px solid #121311;
+    border-radius: 5px; */
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    
+
+    
+}
+
+/* Style the link color */
+.custom-link {
+    color: #2A9D8F;              /* Set your preferred link color */
+    text-decoration: none;       /* Remove the underline */
+}
+
+/* Remove purple color when the link has been visited */
+.custom-link:visited {
+    color: #2A9D8F;              /* Ensure visited link keeps the same color */
+    text-decoration: none;       /* Ensure no underline for visited links */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    padding-top: 3px;  /* Adds 20px of padding to the top */
+    padding-bottom: 3px; /* Adds 30px of padding to the bottom */
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #2A9D8F;
+    border: 1px solid #121311;
+    color: #333;
+}
+
+nav ul li a:hover { 
+    text-decoration: none;
+    background-color: #121311; /* Change background color on hover */
+    color: #2A9D8F; /* Change text color on hover */
+    transition: background-color 0.3s ease; /* Transition between hover goes so hard */
+}
+
+
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    font-family: Lato, Roboto; /* These are the fonts of google therefore the most readable */
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
