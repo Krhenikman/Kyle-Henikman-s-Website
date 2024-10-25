@@ -27,7 +27,7 @@ header {
     padding: 2vh;
     font-size: 3rem;
     color: black;
-    
+    white-space: nowrap; /* Prevents text from wrapping */
     height: 9%; /* 100% of the viewport's height */
     max-width: 100%; /* 100% of the viewport's width */
 }
@@ -44,7 +44,7 @@ footer {
     padding: 2vh, 0;
     position: fixed;
     bottom: 0;
-    
+    white-space: nowrap; /* Prevents text from wrapping */
     height: 9%; /* 100% of the viewport's height */
     width: 100%; /* Take up full width */
     max-width: 100%;
