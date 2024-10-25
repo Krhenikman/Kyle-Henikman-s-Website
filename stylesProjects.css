@@ -25,11 +25,11 @@ header {
     display: flex; /* Corrected display property */
     justify-content: center; /* Center horizontally */
     padding: 1.0rem;
-    font-size: 2.5vw;
+    font-size: 2.5rem;
     color: black;
     white-space: nowrap; /* Prevents text from wrapping */
     height: 9%; /* 100% of the viewport's height */
-    width: 100%;
+
     max-width: 100%; /* 100% of the viewport's width */
 }
 
