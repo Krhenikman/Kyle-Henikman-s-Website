@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f4f8;
-    height: 750px;
-
+    height: 50vh;
+    width: 100%;
 
         background-image: url('images/background9.jpg');
         /* height: 500px; */
@@ -24,12 +24,32 @@ header {
     align-items: center; /* Center vertically */
     display: flex; /* Corrected display property */
     justify-content: center; /* Center horizontally */
-    padding: 20px;
-    font-size: 40px;
+    padding: 2vh;
+    font-size: 3rem;
     color: black;
-    height: 5vh; /* 100% of the viewport's height */
-    width: 100%; /* 100% of the viewport's width */
+    
+    height: 7%; /* 100% of the viewport's height */
+    max-width: 100%; /* 100% of the viewport's width */
 }
+
+footer {
+    font-family: Lato, Roboto; /* These are the fonts of google therefore the most readable */
+    font-size: 1.5rem;
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    display: flex; /* Corrected display property */
+    padding: 2vh, 0;
+    position: fixed;
+    bottom: 0;
+    
+    height: 7%; /* 100% of the viewport's height */
+    width: 100%; /* Take up full width */
+    max-width: 100%;
+}
+
 
 nav ul {
     color:#2A9D8F;
@@ -88,15 +108,4 @@ section {
     text-align: center;
 }
 
-footer {
-    font-family: Lato, Roboto; /* These are the fonts of google therefore the most readable */
-    background-color: #264653;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    height: 5vh; /* 100% of the viewport's height */
-    
-    width: 100%;
-}
+
